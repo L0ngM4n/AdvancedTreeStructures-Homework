@@ -6,7 +6,7 @@
 
     public static class AvlTreeExtensions
     {
-        public static List<T> GetRange<T>(
+        public static IEnumerable<T> GetRange<T>(
             this AvlTree<T> avlTree,
             T min,
             T max) where T : IComparable<T>
